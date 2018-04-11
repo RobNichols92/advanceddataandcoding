@@ -63,7 +63,7 @@
 
 
           <h2 style="padding-top:50px;">Pick Name of Video Game...</h2>
-          <select onchange="changevideogame(this)" class="form-control">
+          <select id="videogameselector" onchange="changevideogame()" class="form-control">
             <option value="-">Please Select</option>
             <option value="0">Please Select</option>
             <option value="1">Please Select</option>
@@ -87,8 +87,8 @@
             <option value="19">Please Select</option>
           </select>
 
-          <h6 id="globalsales" style="padding-top:50px;">Global Sales: <b>43343434</b></h6>
-          <h6 id="avgreview">Average Review Scores: <b>5454</b></h6>
+          <h6 style="padding-top:50px;">Global Sales: <b id="globalsales">43343434</b></h6>
+          <h6>Average Review Scores: <b id="avgreview">5454</b></h6>
 
         </div>
 
@@ -98,7 +98,10 @@
 
     <!-- Bootstrap core JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh6U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
 
   </body>
 
