@@ -1,25 +1,3 @@
-var dataset= {
-  ['FIFA 2018','13049069','78'],
-  ['Call of Duty: WWII','11459994','80'],
-  ['Super Mario Odyssey','7766369','97'],
-  ['The Legend of Zelda: Breath of the Wild','7491214','97'],
-  ['Mario Kart 8 Deluxe','6442403','92'],
-  ['Grand Theft Auto V','5361537','97'],
-  ['Pokemon: Ultra Sun and Moon','5308897','84'],
-  ['Destiny 2','5214350','86'],
-  ["Assassin's Creed Origins",'5148351','83'],
-  ['Star Wars Battlefront II (2017)','4909810','67'],
-  ['Horizon: Zero Dawn','4624409','89'],
-  ['NBA 2K18','4363165','80'],
-  ["Tom Clancy's Ghost Recon Wildlands",'4310599','73'],
-  ['Splatoon 2','4125237','73'],
-  ['Madden NFL 18','3867769','82'],
-  ['Crash Bandicoot N. Sane Trilogy','3529436','80'],
-  ['Resident Evil VII: Biohazard','3469063','83'],
-  ['Dragon Quest XI','3206377','N/A'],
-  ['For Honor','3150072','79'],
-  ['Gran Turismo Sport','3034084','75']
-}
 
 function changevideogame(){
   val = document.getElementById("videogameselector").value;
@@ -28,3 +6,27 @@ function changevideogame(){
   document.getElementById("avgreview").innerHTML = dataset[val][2];
 
 }
+
+
+var dataset= {
+  0:{1:'13049069',2:'78'},
+  1:{1:'11459994',2:'80'},
+  2:{1:'7766369',2:'97'},
+  3:{1:'7491214',2:'97'},
+  4:{1:'6442403',2:'92'},
+  5:{1:'5361537',2:'97'},
+  6:{1:'5308897',2:'84'},
+  7:{1:'5214350',2:'86'},
+  8:{1:'5148351',2:'83'},
+  9:{1:'4909810',2:'67'},
+  10:{1:'4624409',2:'89'},
+  11:{1:'4363165',2:'80'},
+  12:{1:'4310599',2:'73'},
+  13:{1:'4125237',2:'73'},
+  14:{1:'3867769',2:'82'},
+  15:{1:'3529436',2:'80'},
+  16:{1:'3469063',2:'83'},
+  17:{1:'3206377',2:'N/A'},
+  18:{1:'3150072',2:'79'},
+  19:{1:'3034084',2:'75'}
+};
